@@ -28,17 +28,13 @@ a {
 .logo {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 75%;
   transition-duration: 0.5s;
-}
-
-.logo:hover {
-  transform: scale(1.05);
 }
 
 .logo img {
   width: 100%;
-  margin: 15px;
+  margin: 15px auto;
   animation-name: logo;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -83,16 +79,6 @@ a {
   background-image: url("../img/bg-wool-dark.png");
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: repeat;
-}
-
-.an-img {
-  width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.35)),
-    url("../img/skyblock-pvp.png") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 40px 50px;
 }
 
 .an-t {
@@ -103,12 +89,39 @@ a {
 }
 
 .test {
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 80%;
-	max-width: 840px;
-	margin: auto;
-	flex-wrap: wrap;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 840px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.test2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.test4 {
+  padding: 30px;
+  background-image: url("../img/bg-wool-dark.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.test2 img {
+  width: 200px;
+  margin: 30px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.test3 {
+  display: block;
+  font-size: 2rem;
+  word-wrap: break-word;
 }

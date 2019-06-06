@@ -9,7 +9,7 @@
     maxPixel: 2,
     color: "#fff",
     namespace: "jqueryFireFly",
-    zIndex: Math.ceil(20 * Math.random()) - 1,
+    zIndex: Math.floor(Math.random() * 11) + 5,
     borderRadius: "50%",
     _paused: !1
   };
