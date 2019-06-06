@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Minecraft';
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  background: #4286f4;
+  cursor: pointer;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  transition-duration: 0.5s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.logo img {
+  width: 100%;
+  margin: 15px;
+  animation-name: logo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes logo {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url("../img/background.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+#info {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  background-image: url("../img/bg-wool-dark.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+.an-img {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.35)),
+    url("../img/skyblock-pvp.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 40px 50px;
+}
+
+.an-t {
+  display: inline-block;
+  font-size: 0.95em;
+  line-height: 1.5em;
+  margin: 0 30px;
+}
+
+.test {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	max-width: 840px;
+	margin: auto;
+	flex-wrap: wrap;
+}
