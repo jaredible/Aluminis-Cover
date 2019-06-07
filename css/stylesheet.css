@@ -33,7 +33,7 @@ a {
 .logo {
   display: block;
   margin: 0 auto;
-  width: 75%;
+  width: 60%;
   transition-duration: 0.5s;
 }
 
@@ -183,7 +183,6 @@ section::after {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fff;
-  font: normal 400 20px/1 'Josefin Sans', sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
