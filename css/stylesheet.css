@@ -121,7 +121,6 @@ a {
 .test2 img {
   width: 200px;
   margin: 30px;
-  margin-bottom: 5px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
@@ -144,19 +143,19 @@ a {
 
 .test8 {
   position: relative;
-  margin: 15px;
 }
 
 .test6 {
   position: absolute;
-  top: 0;
-  left: 0;
+}
+
+.test10 {
 }
 
 .test7 {
   position: absolute;
-  top: 0;
-  left: 0;
+  transform: translate(-50%, calc(-100% - 30px));
+  margin: 0 !important;
 }
 
 section {
