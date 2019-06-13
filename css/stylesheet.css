@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin: 0;
 }
 
@@ -20,7 +20,6 @@ a {
 .btn {
   position: relative;
   display: inline-block;
-  padding: 15px;
   margin: 0 auto;
   color: white;
   cursor: pointer;
@@ -63,34 +62,33 @@ a {
 .hero {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
-    url("../img/background.png") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
   text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url("../img/background.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #info {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   margin: auto;
   color: white;
   text-align: center;
-  background-image: url("../img/bg-wool-dark.png");
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .an-t {
   display: inline-block;
   font-size: 0.95em;
   line-height: 1.5em;
-  margin: 0 30px;
+  padding: 15px;
+  margin: 15px;
+  max-width: 840px;
 }
 
 .test {
@@ -99,7 +97,6 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 840px;
   margin: auto;
   flex-wrap: wrap;
 }
@@ -108,10 +105,12 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 0 5%;
 }
 
 .test4 {
   width: 100%;
+  height: 100%;
   padding: 30px;
   background-image: url("../img/bg-wool-dark.png");
   background-size: cover;
@@ -155,7 +154,20 @@ a {
 .test7 {
   position: absolute;
   transform: translate(-50%, calc(-100% - 30px));
-  margin: 0 !important;
+}
+
+.test14 {
+  position: relative;
+}
+
+.test15 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.test16 {
+  transform: scale(1.15);
 }
 
 section {
@@ -243,4 +255,36 @@ section::after {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { ... }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
